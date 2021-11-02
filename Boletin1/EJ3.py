@@ -1,4 +1,4 @@
-def isnum(a):
+def esnum(a):
     try:
         int(a)
     except:
@@ -7,10 +7,10 @@ def isnum(a):
 
 def length(a):
     i = 0
-    if not (isnum(a)):
+    if not (esnum(a)):
         for i in range(len(a)):
             i = i + 1
-    elif(isnum(a)):
+    elif(esnum(a)):
         return(a)
     return(i)
 
